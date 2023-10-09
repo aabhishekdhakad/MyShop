@@ -300,8 +300,13 @@ section{
 
 /* end */
 
-/* banner */
 
+
+ /*=================================================
+                 banner Section
+  ==================================================*/
+
+/* 
 .banner-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -346,9 +351,111 @@ section{
 
 .banner-container .banner .content .btn{
   padding: .8rem 2.5rem;
+} */
+
+
+
+
+.wrapper {
+  width: 100%;
+  position: relative;
 }
 
-/* end */
+
+.wrapper i {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+
+
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child{
+  left: -22px;
+}
+.wrapper i:last-child{
+  right: -22px;
+}
+.wrapper .carousel{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 35px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel.no-transition {
+  scroll-behavior: auto;
+}
+.carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.carousel.dragging .card {
+  cursor: grab;
+  user-select: none;
+}
+.carousel :where(.card, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .card {
+  scroll-snap-align: start;
+  height: 260px;
+  width: 450px;
+  list-style: none;
+  background: #fff;
+  cursor: pointer;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.carousel .card .img {
+  background: #8B53FF;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.card .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+  }
+}
+
 
 
 /* ================================================= 
@@ -810,13 +917,14 @@ section{
                       slider Section
   ==================================================*/
 
-
-
   .slider {
     width: 100%;
-    height: 80vh;
+    height: 40vh;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
     position: relative;
     overflow: hidden;
+    border-radius: 10px;
   }
 
 
@@ -868,7 +976,7 @@ section{
   
   .slider-buttons {
     position: absolute;
-    top: 65%;
+    top: 30%;
     left: 0;
     right: 0;
   }
@@ -908,7 +1016,7 @@ section{
 
   
   .slide:first-child {
-    background: url("./images/home_bg.jpg") no-repeat center center/cover;
+    background: url("https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=1440/layout-engine/2022-05/Group-33704.jpg") no-repeat center center/cover;
   }
   .slide:nth-child(2) {
     background: url("./images/slider2.avif") no-repeat center center/cover;
@@ -917,9 +1025,13 @@ section{
     background: url("./images/slidersss.jpg") no-repeat center center/cover;
   }
 
+
+
    /*================================================ 
                  Client-Review
   ==================================================*/
+
+
 .review-main {
     width: 100%;
     height: 50vh;

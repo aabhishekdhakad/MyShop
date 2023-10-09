@@ -535,68 +535,7 @@ section{
 
 /* end */
 
-/* blog */
 
-.blog .box-container{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
-}
-
-.blog .box-container .box{
-  box-shadow: var(--box-shadow);
-}
-
-.blog .box-container .box .image{
-  height: 25rem;
-  width: 100%;
-  overflow: hidden;
-}
-
-.blog .box-container .box .image img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.blog .box-container .box:hover .image img{
-  transform: scale(1.1);
-}
-
-.blog .box-container .box .content{
-  padding: 2rem;
-}
-
-.blog .box-container .box .content .icons{
-  margin-bottom: 1rem;
-}
-
-.blog .box-container .box .content .icons a{
-  font-size: 1.4rem;
-  color: var(--primary-color);
-}
-
-.blog .box-container .box .content .icons a:hover{
-  color: var(--secondary);
-}
-
-.blog .box-container .box .content .icons a i{
-  padding-right: .5rem;
-}
-
-.blog .box-container .box .content h3{
-  font-size: 2.5rem;
-  color: var(--black);
-}
-
-.blog .box-container .box .content p{
-  font-size: 1.5rem;
-  color: var(--black);
-  line-height: 2;
-  padding: 1rem 0;
-}
-
-/* end */
 
 
 /* ================================================= 
@@ -1002,23 +941,138 @@ section{
     background: url("./images/slidersss.jpg") no-repeat center center/cover;
   }
 
-
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
+   /*================================================ 
+                 Client-Review
+  ==================================================*/
+.review-main {
+    width: 100%;
+    height: 50vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+}
 
   
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    width: 43%;
+}
+
+.clientImage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.clientImage span {
+    margin-left: 10px;
+}
+
+.clientImage img {
+    width: 40px;
+}
+
+.reviewSection {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reviewItem {
+    width: 300px;
+    padding: 10px;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: black;
+    border: 1px solid #FFC108;
+    transition: all .2s linear;
+}
+
+.reviewItem:hover {
+    border-color: aqua;
+    transform: scale(1.01);
+    background-color: #FFC108;
+    box-shadow: 0 0px 5px 0px #cbc0c0;
+    color: black;
+}
+
+.top {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top ul {
+    display: flex;
+    list-style: none;
+}
+
+.top ul li {
+    padding-left: 4px;
+}
+
+article p {
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    font-family: system-ui;
+}
+
+
+@media screen and (max-width:700px) {
+    .container {
+        height: auto;
+    }
+
+    .description {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .reviewSection {
+        padding: 0;
+    }
+
+    .reviewItem {
+        width: 100%;
+    }
+
+    .clientImage {
+        margin-bottom: 0.6rem;
+    }
+
+    .top {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

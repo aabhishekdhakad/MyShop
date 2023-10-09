@@ -355,9 +355,10 @@ section{
                       Product Section
   ==================================================*/
 
+
 .product .box-container{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 2rem;
 }
 
@@ -371,9 +372,9 @@ section{
 }
 
 .product .box-container .box .image{
-  height: 25rem;
+  height: 20rem;
   width: 100%;
-  padding: 1.1rem;
+  padding: 0px 0px 15px 0px;
 }
 
 .product .box-container .box .image img{
@@ -390,24 +391,39 @@ section{
 
 .product .box-container .box .content h3{
   color: var(--black);
-  font-size: 2.5rem;
+  font-size: 16px;
   margin-bottom: 1rem;
+  font-weight: 400;
 }
 
-.product .box-container .box .content .price{
-  display: inline-block;
-  font-size: 2.5rem;
-  color: var(--primary-color);
+.product .box-container .box .content h4{
+  position: absolute;
+  left: 10%;
+  bottom: 18%;
+  font-size: 14px;
+  font-weight: 200;
 }
 
-.product .box-container .box .content .stars{
-  padding: 1rem 0;
+.product .box-container .box .content .add-btn-section{
+  display: flex;
+  margin-top: 5rem;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
 }
 
-.product .box-container .box .content .stars i{
-  font-size: 1.7rem;
-  color: var(--secondary);
+
+.product .content .add-btn-section button{
+  padding: 6px 18px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 400;
+  background: none;
+  border: 1px solid #FFC108;
+  box-shadow: 1px 1px 1px 0px #FFC108;
 }
+
+
 
 .product .box-container .box .content .fa-shopping-cart,
 .product .box-container .box .content .fa-heart,

@@ -828,7 +828,7 @@ section{
   ==================================================*/
 .category .box-container{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 2rem;
 }
 
@@ -842,9 +842,9 @@ section{
 }
 
 .category .box-container .box .image{
-  height: 15rem;
+  height: 12rem;
   width: 100%;
-  padding: 1.1rem;
+  padding: 1rem;
 }
 
 .category .box-container .box .image img{
@@ -1017,6 +1017,17 @@ section{
   .slide:nth-child(3) {
     background: url("./images/slidersss.jpg") no-repeat center center/cover;
   }
+
+
+
+
+
+
+
+
+
+
+  
   
   
 

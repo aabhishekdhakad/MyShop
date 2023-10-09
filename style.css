@@ -826,10 +826,11 @@ section{
 /* ================================================= 
                     Category Section
   ==================================================*/
+
 .category .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .category .box-container .box{
@@ -842,9 +843,9 @@ section{
 }
 
 .category .box-container .box .image{
-  height: 12rem;
+  height: 13rem;
   width: 100%;
-  padding: 1rem;
+  padding: 0px 0px 0px 0px;
 }
 
 .category .box-container .box .image img{
@@ -855,56 +856,15 @@ section{
 }
 
 .category .box-container .box .content{
-  padding: 2rem;
-  padding-top: 0;
+  padding: 10px 0px 15px 0px;
+
 }
 
-.category .box-container .box .content h3{
+.category .box-container .box .content p{
   color: var(--black);
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
+  font-size: 14px;
 
-.category .box-container .box .content .price{
-  display: inline-block;
-  font-size: 2.5rem;
-  color: var(--primary-color);
 }
-
-.category .box-container .box .content .stars{
-  padding: 1rem 0;
-}
-
-.category .box-container .box .content .stars i{
-  font-size: 1.7rem;
-  color: var(--secondary);
-}
-
-.category .box-container .box .content .fa-shopping-cart,
-.category .box-container .box .content .fa-heart,
-.category .box-container .box .content .fa-eye{
-  text-align: center;
-  height: 4.5rem;
-  width: 4.5rem;
-  line-height: 4.5rem;
-  border-radius: .5rem;
-  background: none;
-  cursor: pointer;
-  font-size: 2rem;
-  color: var(--primary-color);
-  border: .1rem solid var(--primary-color);
-  margin-left: .5rem;
-}
-
-.category .box-container .box .content .fa-shopping-cart:hover,
-.category .box-container .box .content .fa-heart:hover,
-.category .box-container .box .content .fa-eye:hover{
-  color: var(--white);
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  transition: .4s linear;
-}
-
 
 
 /* ================================================= 

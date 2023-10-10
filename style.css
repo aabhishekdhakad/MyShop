@@ -375,7 +375,7 @@ section{
   border-radius: 50%;
   box-shadow: 0 3px 6px rgba(0,0,0,0.23);
   transform: translateY(-50%);
-  transition: transform 0.1s linear;
+  transition: transform 0.2s linear;
 }
 
 
@@ -468,6 +468,15 @@ section{
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 2rem;
 }
+
+
+
+#product h1{
+  padding-bottom: 10px;
+}
+
+
+
 
 .product .box-container .box{
   text-align: center;

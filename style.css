@@ -68,6 +68,7 @@ section{
   border-radius: .5rem;
   background: var(--primary-color);
   cursor: pointer;
+  background: #DD0024;
 }
 
 .btn:hover{
@@ -762,6 +763,7 @@ section{
 .footer{
   background: var(--bg);
   text-align: center;
+  background-color: #a1945e7d;
 }
 
 .footer .box-container{
@@ -774,6 +776,7 @@ section{
   font-size: 2.2rem;
   text-transform: capitalize;
   color: var(--primary-color);
+  color: black;
   padding: 1rem 0;
 }
 
@@ -798,6 +801,8 @@ section{
   color: var(--white);
   margin-right: .3rem;
   text-align: center;
+  color: #DD0024;
+  background: #FFC108;
 }
 
 .footer .box-container .box .share a:hover{
@@ -810,10 +815,12 @@ section{
   color: var(--primary-color);
   padding: .5rem 0;
   display: block;
+  color: black;
 }
 
 .footer .box-container .box .link:hover{
   color: var(--secondary);
+  color: red;
 }
 
 .footer .credit{

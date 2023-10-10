@@ -68,6 +68,7 @@ section{
   border-radius: .5rem;
   background: var(--primary-color);
   cursor: pointer;
+  background: #DD0024;
 }
 
 .btn:hover{
@@ -824,10 +825,11 @@ section{
   padding: 1rem;
   margin: 1rem 0;
   font-size: 1.7rem;
-  color: #666;
+  color: black;
   text-transform: capitalize;
   border: .1rem solid transparent;
   background: var(--bg);
+  background: #FFC108;
   border-bottom-color: var(--primary-color);
   border-radius: .5rem .5rem 0 0;
   width: 49%;
@@ -856,6 +858,7 @@ section{
 .footer{
   background: var(--bg);
   text-align: center;
+  background-color: black;
 }
 
 .footer .box-container{
@@ -868,6 +871,7 @@ section{
   font-size: 2.2rem;
   text-transform: capitalize;
   color: var(--primary-color);
+  color: #fff;
   padding: 1rem 0;
 }
 
@@ -876,6 +880,7 @@ section{
   line-height: 2;
   color: var(--black);
   padding: 1rem 0;
+  color: #fff;
 }
 
 .footer .box-container .box .share{
@@ -892,6 +897,8 @@ section{
   color: var(--white);
   margin-right: .3rem;
   text-align: center;
+  color: #DD0024;
+  background: #FFC108;
 }
 
 .footer .box-container .box .share a:hover{
@@ -904,10 +911,12 @@ section{
   color: var(--primary-color);
   padding: .5rem 0;
   display: block;
+  color: #fff;
 }
 
 .footer .box-container .box .link:hover{
   color: var(--secondary);
+  color: red;
 }
 
 .footer .credit{
@@ -1278,6 +1287,9 @@ article p {
         justify-content: center;
     }
 }
+
+
+
 
 
 

@@ -48,14 +48,14 @@ section{
   padding: 1.2rem 0;
   margin-bottom: 3rem;
   color: var(--primary-color);
-  color: #ffba43;
+  color: #DD0024;
   text-transform: uppercase;
   font-size: 4rem;
 }
 
 .heading span{
   color: var(--secondary);
-  color: black;
+  color: #FFC108;
   text-transform: uppercase;
 }
 
@@ -659,6 +659,29 @@ section{
 /* end */
 
 
+/* ================================================= 
+                     Category-Headings and SeeALL btn
+  ==================================================*/
+.heading-product-and-see-all-butn{
+  display: flex;
+  justify-content: space-between;
+}
+.heading-product-and-see-all-butn span{
+  font-size: 30px;
+  font-weight: 350px;
+}
+.heading-product-and-see-all-butn a p{
+  font-size: 20px;
+  font-weight: 400px;
+  cursor: pointer;
+  color: black;
+}
+.heading-product-and-see-all-butn a p:hover{
+ color: #DD0024;
+}
+
+
+
 
 
 /* ================================================= 
@@ -1151,6 +1174,7 @@ article p {
         justify-content: center;
     }
 }
+
 
 
 

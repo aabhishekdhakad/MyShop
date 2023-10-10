@@ -4,38 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Khana Parcle</title>
-
+    <title>Khana Parcel</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
     
     
     <header class="header">
         
-        <img src="./images/website logo.png" alt="" style="width: 50px;  height: 50px;">
-        <a href="#" class="logo" style="color:darkgoldenrod">Khana Parcle</a>
 
-        <nav class="navbar">
+        <div class="logo-section">
+        <img src="./images/website logo.png" alt="logo">
+        <a href="#" class="logo-name" style="color:darkgoldenrod">Khana Parcle </a>
+        </div>
+
+
+        <!-- <nav class="navbar">
             <a href="#home">home</a>
             <a href="#product">Kitchen Essential</a>
             <a href="#about">Morning Essential</a>
             <a href="#review">Washroom Essential</a>
             <a href="#blog">Personal Care</a>
             <a href="#contact">contact</a>
-        </nav>
+        </nav> -->
 
-        <div class="icons">
-            <div id="cart-btn" class="fas fa-shopping-basket"></div>
-            <div id="login-btn" class="fas fa-user"></div>
+
+
+        <div class="navbar navbar-location">
+            <i class="bi bi-geo-alt-fill"></i>
+            <select name="location">
+              <option value="Bhopal">Bhopal</option>
+              <option value="Vidisha">Vidisha</option>
+              <option value="Indore">Indore</option>
+              <option value="sehore">sehore</option>
+            </select>
+
+            <form class="search-box" role="search">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+          </div>
+
+
+        <!-- <div class="icons">
+            <div id="cart-btn" class="fas fa-shopping-basket">
+
+                
+            </div>
+
+            <div id="login-btn" class="fas fa-user">
+                
+            </div>
+
             <div id="menu-btn" class="fas fa-bars"></div>
-        </div>
+        </div> -->
+
+
+
+        <div class="login-section">
+            <button class="login-btn" type="button">Login
+                <i class="bi bi-person-fill"></i>
+            </button>
+            <button class="card-btn" type="button">Card
+                <i class="bi bi-bag-check-fill"></i>
+            </button>
+
+            </div>
+
+
+
 
         <!-- shopping cart -->
 

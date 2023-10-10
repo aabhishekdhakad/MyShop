@@ -76,6 +76,52 @@ section{
   box-shadow: var(--box-shadow);
 }
 
+
+.header .logo-name{
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+
+.header .navbar-location select{
+  padding: 8px 8px;
+  border: none;
+  gap: 5px;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+
+.header .search-box button{
+  background: none;
+  border: 1px solid #FFC108;
+  padding: 8px 10px;
+  color: #222;
+}
+
+
+.header .navbar-location{
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 5px 5px 1px #39393913;
+  padding: 10px 50px;
+  background: var(--white);
+}
+
+.search-box input{
+  padding: 10px 60px;
+  border: none;
+  font-size: 18px;
+}
+
+
+.navbar-location .bi-geo-alt-fill{
+  color: #DD0001;
+  font-size: 20px;
+}
+
+
+
 /* header */
 
 .header{
@@ -87,20 +133,41 @@ section{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 9%;
+  padding: 2rem 10%;
 }
 
-.header .logo{
+
+.header .logo-section{
+  display: flex;
+  align-items: center;
+}
+
+
+.header .logo-section a{
+  font-size: 3rem;
+}
+
+
+.header .logo-section img{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+
+
+/* .header .logo{
   font-size: 2.5rem;
   font-weight: bolder;
   color: var(--black);
-}
+} */
 
-.header .logo i{
+/* .header .logo i{
   color: var(--secondary);
   padding-right: .5rem;
-}
+} */
 
+/* 
 .header .navbar a{
   font-size: 1.7rem;
   color: var(--black);
@@ -109,10 +176,17 @@ section{
 
 .header .navbar a:hover{
   color: var(--primary-color);
+} */
+
+
+
+
+.header .fas{
+  font-size: 2.5rem;
 }
 
+
 .header .icons div{
-  font-size: 2.5rem;
   margin-left: 1.7rem;
   cursor: pointer;
   color: var(--black);
@@ -125,6 +199,26 @@ section{
 #menu-btn {
   display: none;
 }
+
+
+.login-section 
+.login-btn,
+.card-btn{
+  padding: 8px 10px;
+  background: #FFC108;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+}
+
+/* .card-btn{
+  background: #FFC108;
+} */
+
+
+
+
+
 
 /* shopping-cart */
 

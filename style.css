@@ -79,43 +79,60 @@ section{
 }
 
 
+
+/*=================================================
+                 Header Navbar
+===================================================*/
+
+
+
 .header .navbar-location select{
-  padding: 8px 8px;
+  padding: 8px 50px 8px 8px;
   border: none;
   gap: 5px;
   font-size: 16px;
   margin-top: 8px;
+  color: #555;
 }
+
 
 
 .header .search-box button{
   background: none;
-  border: 1px solid #FFC108;
-  padding: 8px 10px;
-  color: #222;
+  /* border: 1px solid #FFC108; */
+  /* padding: 8px 10px; */
+  color: #888;
+  font-size: 2rem;
 }
 
 
 .header .navbar-location{
   display: flex;
   align-items: center;
-  box-shadow: 1px 5px 5px 1px #39393913;
-  padding: 15px 50px;
+  padding: 8px 35px;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 6px 0px;
   background: var(--white);
 }
 
 .search-box input{
-  padding: 10px 60px;
+  padding: 8px 20px;
   border: none;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+
+.navbar-location .pip-line span{
+  font-size: 22px;
+  color: #888;
+  padding-left: 20px;
 }
 
 
 .navbar-location .bi-geo-alt-fill{
   color: #DD0001;
-  font-size: 20px;
+  font-size: 22px;
 }
-
 
 
 /* header */
@@ -131,9 +148,9 @@ section{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 0rem 0%;
-  width: 100%;
-  height: 120px;
+  /* padding: 0rem 0%; */
+  width: 100vw;
+  height: 15vh;
 }
 
 
@@ -460,7 +477,7 @@ section{
 
 
  /*=================================================
-                 banner Section
+                Card-Slider - banner Section
   ==================================================*/
 
 
@@ -552,7 +569,75 @@ section{
 }
 
 
-@media screen and (max-width: 900px) {
+/* -------------- Responsive ---------------- */
+
+
+
+
+@media screen and (max-width: 320px){
+
+  .wrapper .carousel{
+    grid-auto-columns: calc((100% / 1) - 5px);
+    gap: 0px;
+  }
+
+  .carousel .card {
+    height: 190px;
+    width: 290px;
+    border-radius: 10px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 375px){
+
+  .wrapper .carousel{
+    grid-auto-columns: calc((100% / 1) - 20px);
+    gap: 0px;
+  }
+
+  .carousel .card {
+    height: 210px;
+    width: 320px;
+    
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 1450px) {
+
+
+  .wrapper {
+    margin: 50px 0px;
+  }
+
+  /* .wrapper .carousel {
+    grid-auto-columns: calc((100% / 3) - 9px);
+  } */
+}
+
+/* 
+@media screen and (max-width: 991px) {
+  
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 1) - 10px);
+  }
+
+  .carousel .card {
+    width: 300px;
+    height: 100px;
+  }
+
+
+} */
+
+
+/* @media screen and (max-width: 900px) {
   .wrapper .carousel {
     grid-auto-columns: calc((100% / 2) - 9px);
   }
@@ -562,7 +647,51 @@ section{
   .wrapper .carousel {
     grid-auto-columns: 100%;
   }
+} */
+
+
+
+
+/* @media screen and (max-width: 1350px) {
+  
+.carousel .card {
+  height: 240px;
+  width: 400px;
 }
+
+.carousel .card .img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+}
+
+} */
+
+/* 
+@media screen and (max-width: 1220px) {
+  
+
+  .wrapper .carousel {
+    grid-auto-columns: calc((90% / 2) - 1px);
+  }
+
+
+  .carousel .card {
+    width: 450px;
+    height: 290px;
+  }
+  
+  .carousel .card .img {
+    background: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  } */
+
+
+
 
 
 

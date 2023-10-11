@@ -439,7 +439,7 @@ section{
     background: var(--white);
   }
 
-  .header .navbar.active{
+  .header .navbar .active{
     right: 2rem;
     transition: .4s linear;
   }
@@ -470,10 +470,6 @@ section{
     font-size: 3.5rem;
   }
 }
-
-
-
-
 
 
 
@@ -576,125 +572,133 @@ section{
 
 
 
-@media screen and (max-width: 320px){
+@media (min-width: 210px){
 
   .wrapper .carousel{
-    grid-auto-columns: calc((100% / 1) - 5px);
-    gap: 0px;
-  }
-
-  .carousel .card {
-    height: 190px;
-    width: 290px;
-    border-radius: 10px;
-  }
-
-}
-
-
-
-@media screen and (max-width: 375px){
-
-  .wrapper .carousel{
-    grid-auto-columns: calc((100% / 1) - 20px);
-    gap: 0px;
-  }
-
-  .carousel .card {
-    height: 210px;
-    width: 320px;
-    
-  }
-
-}
-
-
-
-
-@media screen and (max-width: 1450px) {
-
-
-  .wrapper {
-    margin: 50px 0px;
-  }
-
-  /* .wrapper .carousel {
-    grid-auto-columns: calc((100% / 3) - 9px);
-  } */
-}
-
-/* 
-@media screen and (max-width: 991px) {
-  
-  .wrapper .carousel {
     grid-auto-columns: calc((100% / 1) - 10px);
+    gap: 0px;
   }
 
   .carousel .card {
-    width: 300px;
-    height: 100px;
+    height: 220px;
+    width: 280px; 
   }
 
+}
 
-} */
 
 
-/* @media screen and (max-width: 900px) {
+@media (min-width: 320px){
+
+  .wrapper .carousel{
+    grid-auto-columns: calc((100% / 1) - 10px);
+    gap: 0px;
+  }
+
+  .carousel .card {
+    height: 220px;
+    width: 310px; 
+  }
+
+}
+
+
+
+@media (min-width: 375px){
+
+  .wrapper .carousel{
+    grid-auto-columns: calc((100% / 1) - 35px);
+    gap: 0px;
+  }
+
+  .carousel .card {
+    height: 220px;
+    width: 310px; 
+  }
+
+}
+
+
+
+@media (min-width: 425px){
+
+  .wrapper .carousel{
+    grid-auto-columns: calc((100% / 1) - 30px);
+    gap: 0px;
+  }
+
+  .carousel .card {
+    height: 260px;
+    width: 340px; 
+  }
+
+}
+
+
+
+@media (min-width: 450px){
+
+  .wrapper .carousel{
+    grid-auto-columns: calc((90% / 1) - 40px);
+  }
+
+  .carousel .card {
+    height: 290px;
+    width: 380px; 
+  }
+
+}
+
+
+@media (min-width: 590px){
+  .wrapper .carousel{
+    grid-auto-columns: calc((80% / 1) - 50px);
+  }
+
+}
+
+
+@media (min-width: 750px){
+  .wrapper .carousel{
+    grid-auto-columns: calc((100% / 2) - 0px);
+  }
+
+}
+
+
+@media (min-width: 900px){
+  .wrapper .carousel{
+    grid-auto-columns: calc((100% / 2) - 25px);
+  }
+}
+
+
+@media screen and (min-width: 950px) {
   .wrapper .carousel {
     grid-auto-columns: calc((100% / 2) - 9px);
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 1000px) {
   .wrapper .carousel {
-    grid-auto-columns: 100%;
+    grid-auto-columns: calc((85% / 2) - 50px);
   }
-} */
-
-
-
-
-/* @media screen and (max-width: 1350px) {
-  
-.carousel .card {
-  height: 240px;
-  width: 400px;
 }
 
-.carousel .card .img {
-  height: 100%;
-  width: 100%;
-  border-radius: 50px;
+
+@media screen and (min-width: 1200px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((75% / 2) - 50px);
+  }
 }
 
-} */
 
-/* 
-@media screen and (max-width: 1220px) {
-  
 
+@media screen and (min-width: 1300px) {
   .wrapper .carousel {
-    grid-auto-columns: calc((90% / 2) - 1px);
+    grid-auto-columns: calc((100% / 3) - 50px);
   }
-
-
-  .carousel .card {
-    width: 450px;
-    height: 290px;
-  }
-  
-  .carousel .card .img {
-    background: none;
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  
-  } */
-
-
-
-
+}
 
 
 /* ================================================= 
@@ -807,7 +811,12 @@ section{
 
 /* end */
 
-/* about */
+
+
+/* ================================================= 
+                      About Section
+  ==================================================*/
+
 
 .about .row{
   display: flex;
@@ -850,11 +859,84 @@ section{
   height: 100%;
 }
 
-/* end */
 
-/* review */
+.about .img-two{
+  display: none;
+}
 
 
+@media screen and (max-width: 320px) {
+ 
+ .about .heading {
+    margin-bottom: 4px;
+    margin-top: 8rem;
+    font-size: 4rem;
+}
+
+
+
+.about .content h3 {
+  font-size: 2.5rem !important;
+}
+
+.about .content p {
+  font-size: 2rem !important;
+}
+
+
+.about .btn{
+padding: 8px 20px;
+cursor: pointer;
+font-size: 18px;
+
+}
+
+}
+
+
+
+@media screen and (max-width: 675px) {
+
+  .about .row .image img{
+    width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  
+  .about .heading {
+     margin-bottom: 4px;
+     margin-top: 8rem;
+     font-size: 4rem;
+ }
+ 
+ .about .content h3 {
+   font-size: 2.5rem !important;
+ }
+ 
+ .about .content p {
+   font-size: 2rem !important;
+ }
+ 
+ 
+ .about .btn{
+ padding: 8px 20px;
+ cursor: pointer;
+ font-size: 18px;
+ 
+ }
+ 
+ }
+ 
+
+
+
+/* ================================================= 
+                      Review Section
+==================================================*/
+
+/* 
 .review-main .reviewItem article p{
   font-family:Arial, Helvetica, sans-serif;
 }
@@ -915,9 +997,7 @@ section{
 }
 
 
-
-/* end */
-
+ */
 
 
 /* ================================================= 
@@ -925,10 +1005,13 @@ section{
   ==================================================*/
 
 
-  .heading-product-and-see-all-butn{
+
+.heading-product-and-see-all-butn{
   display: flex;
   justify-content: space-between;
 }
+
+
 .heading-product-and-see-all-butn span{
   font-size: 30px;
   font-weight: 350px;
@@ -950,6 +1033,7 @@ section{
 /* ================================================= 
                       Contact Section
   ==================================================*/
+
 
 .contact .row{
   display: flex;
@@ -1008,7 +1092,47 @@ section{
 }
 
 
-/* end */
+@media screen and (max-width: 320px) {
+  
+  .contact{
+    margin-top: 45rem;
+    padding-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .contact .row form{
+    padding: 2rem;
+    padding-top: 2rem;
+  }
+
+
+}
+
+
+
+
+@media screen and (max-width: 786px) {
+  
+  .contact{
+    margin-top: 10rem;
+    padding-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .contact .row form{
+    padding: 2rem;
+    padding-top: 2rem;
+  }
+
+ .contact .heading {
+    margin-bottom: 18px;
+    font-size: 4rem;
+}
+
+}
+
+
+
 
 /* ================================================= 
                       footer Section
@@ -1096,6 +1220,8 @@ section{
 /* ================================================= 
                    App Download Button
   ==================================================*/
+
+
 .btn {
   background-color: red;
   border: none;
@@ -1264,6 +1390,20 @@ section{
   }
 
 
+  @media screen and (max-width: 768px) {
+    .slide .content {
+      width: 100%;
+      bottom: -15%;
+      left: 0;
+    }
+    .slide.current .content {
+      opacity: 1;
+      transform: translateY(0%);
+      left: 0;
+      bottom: 0%;
+    }
+  }
+
 
    /*================================================ 
                  Client-Review
@@ -1279,6 +1419,10 @@ section{
     flex-direction: column;
     justify-content: center;
     /* background-color: #FFC108; */
+}
+
+.review-main .reviewItem article p{
+  font-family:Arial, Helvetica, sans-serif;
 }
 
   
@@ -1362,14 +1506,42 @@ article p {
 
 
 @media screen and (max-width:700px) {
-    .container {
+  
+  .container {
         height: auto;
-    }
+  }
 
     .description {
         width: 90%;
     }
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .review-main{
+    margin-top: 10rem;
+    padding-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+}
+
+
+
+@media screen and (max-width: 675px){
+
+.review-main{
+    margin-top: 30rem;
+    padding-top: 10rem;
+}
+
+
+
+}
+
+
+
 
 @media screen and (max-width:375px) {
     .reviewSection {
@@ -1392,6 +1564,13 @@ article p {
 }
 
 
+@media screen and (max-width: 320px) {
+  .review-main{
+    margin-top: 40rem;
+    padding-top: 10rem;
+  }
+
+}
 
 
 

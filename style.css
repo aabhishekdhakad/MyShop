@@ -1093,8 +1093,6 @@ font-size: 18px;
 
 
 
-
-
 /* ================================================= 
                       Contact Section
   ==================================================*/
@@ -1439,9 +1437,9 @@ font-size: 18px;
     color: black;
   }
 
-   /*================================================ 
+/*================================================ 
                  background images
-  ==================================================*/
+==================================================*/
 
   
   .slide:first-child {
@@ -1455,18 +1453,59 @@ font-size: 18px;
   }
 
 
+
   @media screen and (max-width: 768px) {
-    .slide .content {
+
+    .slider {
+      margin-top: 15rem;
       width: 100%;
-      bottom: -15%;
-      left: 0;
+      height: 20vh;
+      overflow: none;
     }
-    .slide.current .content {
-      opacity: 1;
-      transform: translateY(0%);
-      left: 0;
-      bottom: 0%;
+
+  }
+
+
+
+  @media screen and (max-width: 991px) {
+  .next-btn,
+  .prev-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+  }
+
+  .slider {
+    margin-top: 15rem;
+    width: 100%;
+    height: 20vh;
+    overflow: none;
+  }
+
+
+  .slider-buttons {
+      position: absolute;
+      top: 25%;
     }
+
+  }
+
+
+
+  @media screen and (max-width: 991px) {
+
+  .slider {
+    margin-top: 15rem;
+    width: 100%;
+    height: 15vh;
+  }
+
+
+  .slider-buttons {
+      position: absolute;
+      top: 25%;
+    }
+
   }
 
 

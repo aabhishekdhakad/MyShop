@@ -161,8 +161,8 @@ section{
 
 
 .header .logo-section a{
-  font-size: 2.5rem;
-  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  font-weight: bolder;
 }
 
 
@@ -195,6 +195,8 @@ section{
 .header .navbar a:hover{
   color: var(--primary-color);
 } */
+
+
 
 
 
@@ -1091,6 +1093,19 @@ section{
 }
 
 
+/* ================================================= 
+                   App Download Button
+  ==================================================*/
+.btn {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
 
 /* ================================================= 
                     Category Section
@@ -1239,7 +1254,7 @@ section{
 
   
   .slide:first-child {
-    background: url("https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=1440/layout-engine/2022-05/Group-33704.jpg") no-repeat center center/cover;
+    background: url("images/khana-logo.jpg") no-repeat center center/cover;
   }
   .slide:nth-child(2) {
     background: url("https://img.freepik.com/free-vector/flat-design-healthy-food-twitch-banner_23-2149154353.jpg?w=1380&t=st=1696854584~exp=1696855184~hmac=f3870b945cc70cc41945f521140ed87194b48d5e1bb02e67015d618940d041d8") no-repeat center center/cover;

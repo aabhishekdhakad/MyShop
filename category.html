@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/khana-parcles-logo.png">
+    <title>Khana Parcle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+<!--================================================= 
+                     Navbar-Section
+==================================================-->
+
+    <header class="header">
+        
+        <div class="logo-section">
+        <img src="./images/khana-parcles-logo.png" alt="logo">
+        <a href="#" class="logo-name" style="color:darkgoldenrod ">खाना Parcle</a>
+        </div>
+
+        <div class="navbar navbar-location">
+            <i class="bi bi-geo-alt-fill"></i>
+            <select name="location">
+              <option value="Bhopal">Bhopal</option>
+              <option value="Vidisha">Vidisha</option>
+              <option value="Indore">Indore</option>
+              <option value="sehore">sehore</option>
+            </select>
+
+            <div class="pip-line">
+                <span>|</span>
+            </div>
+
+            <form class="search-box" role="search">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <button class="search-btn" type="submit"><i class="bi bi-search"></i></button>
+              </form>
+
+          </div>
+
+        <div class="icons">
+            <div id="cart-btn" class="fas fa-shopping-basket">
+            </div>
+            <div id="login-btn" class="fas fa-user">
+            </div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart1.jpg" alt="">
+                <div class="content">
+                    <h3>side dish</h3>
+                    <span class="price">$14.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart2.jpg" alt="">
+                <div class="content">
+                    <h3>side dish</h3>
+                    <span class="price">$15.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart3.png" alt="">
+                <div class="content">
+                    <h3>side dish</h3>
+                    <span class="price">$14.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart4.jpg" alt="">
+                <div class="content">
+                    <h3>side dish</h3>
+                    <span class="price">$18.99</span>
+                </div>
+            </div>
+            <h3 class="total"> total: <span> $56.89</span></h3>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <!-- end -->
+
+        <!-- login -->
+
+        <form action="" class="login-form">
+
+            <h3>login form</h3>
+
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <a href="#" class="btn"> login </a>
+
+        </form>
+    </header>   
+
+    <!-- end -->
+
+
+
+<!--================================================= 
+                     Container-main-Section
+==================================================-->
+
+
+<div class="category-container category-main">
+    
+<!----------------------------------------------------------------------
+-------------------------- container-right -----------------------------
+----------------------------------------------------------------------->
+
+
+<div class="container-right items-1">
+
+    <div class="category-iteam-select">
+
+        <div class="card">
+            <a href="#">
+            <img src="images/product-1.jpg" alt="Image 1">
+            <p>item Name</p>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="#">
+            <img src="images/product-2.jpg" alt="Image 1">
+            <p>item Name</p>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="#">
+            <img src="images/product-6.jpg" alt="Image 1">
+            <p>item Name</p>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="#">
+            <img src="images/product-5.jpg" alt="Image 1">
+            <p>item Name</p>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="#">
+            <img src="images/product-1.jpg" alt="Image 1">
+            <p>item Name</p>
+            </a>
+        </div>
+
+
+        <div class="card">
+            <a href="#">
+            <img src="images/product-3.jpg" alt="Image 1">
+            <p>item Name</p>
+            </a>
+        </div>
+
+
+        <div class="card">
+            <a href="#">
+            <img src="images/product-2.jpg" alt="Image 1">
+            <p>item Name</p>
+            </a>
+        </div>
+                
+    </div>
+
+</div>
+
+<div class="footer-section"></div>
+
+<!----------------------------------------------------------------------
+-------------------------- container-right -----------------------------
+----------------------------------------------------------------------->
+
+<div class="container-left">
+
+
+<!-------------------------- Product Section ------------------------->
+
+    <section class="product" id="product">
+
+        <div class="heading-product-and-see-all-butn">
+            <span>Dairy, bread & Eggs</span></div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/ATTA.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mother Dairy Paneer</h3>
+                    <h4>400g</h4>
+                <div class="add-btn-section">
+                    <p>₹45</p>
+                    <button class="Add-to-card">ADD</button>
+                </div>
+
+                </div>
+                
+
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/Organic healthy.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mother Dairy Paneer</h3>
+                    <h4>400g</h4>
+                <div class="add-btn-section">
+                    <p>₹45</p>
+                    <button class="Add-to-card">ADD</button>
+                </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/tea coffee & healthy drinks.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mother Dairy Paneer</h3>
+                    <h4>400g</h4>
+                <div class="add-btn-section">
+                    <p>₹45</p>
+                    <button class="Add-to-card">ADD</button>
+                </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/fruits & vegetables.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mother Dairy Paneer</h3>
+                    <h4>400g</h4>
+                <div class="add-btn-section">
+                    <p>₹45</p>
+                    <button class="Add-to-card">ADD</button>
+                </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/Masala oil.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mother Dairy Paneer</h3>
+                    <h4>400g</h4>
+                <div class="add-btn-section">
+                    <p>₹45</p>
+                    <button class="Add-to-card">ADD</button>
+                </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/Pet care.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mother Dairy Paneer</h3>
+                    <h4>400g</h4>
+                <div class="add-btn-section">
+                    <p>₹45</p>
+                    <button class="Add-to-card">ADD</button>
+                </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="product" id="product">
+
+        <div class="heading-product-and-see-all-butn">
+        <span>Dairy, bread & Eggs</span>
+        </div>
+        
+        <!-- <h1 class="heading"> Dairy, bread & Eggs <span></span></h1> -->
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/dairy & bread.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mother Dairy Paneer</h3>
+                    <h4>400g</h4>
+                <div class="add-btn-section">
+                    <p>₹45</p>
+                    <button class="Add-to-card">ADD</button>
+                </div>
+
+                </div>
+                
+
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/dairy & bread.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mother Dairy Paneer</h3>
+                    <h4>400g</h4>
+                <div class="add-btn-section">
+                    <p>₹45</p>
+                    <button class="Add-to-card">ADD</button>
+                </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/dairy & bread.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mother Dairy Paneer</h3>
+                    <h4>400g</h4>
+                <div class="add-btn-section">
+                    <p>₹45</p>
+                    <button class="Add-to-card">ADD</button>
+                </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/dairy & bread.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mother Dairy Paneer</h3>
+                    <h4>400g</h4>
+                <div class="add-btn-section">
+                    <p>₹45</p>
+                    <button class="Add-to-card">ADD</button>
+                </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/dairy & bread.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mother Dairy Paneer</h3>
+                    <h4>400g</h4>
+                <div class="add-btn-section">
+                    <p>₹45</p>
+                    <button class="Add-to-card">ADD</button>
+                </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/dairy & bread.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mother Dairy Paneer</h3>
+                    <h4>400g</h4>
+                <div class="add-btn-section">
+                    <p>₹45</p>
+                    <button class="Add-to-card">ADD</button>
+                </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="product" id="product">
+        <div class="heading-product-and-see-all-butn">
+            <span>Dairy, bread & Eggs</span>
+            </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/snack & munchies.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mother Dairy Paneer</h3>
+                    <h4>400g</h4>
+                <div class="add-btn-section">
+                    <p>₹45</p>
+                    <button class="Add-to-card">ADD</button>
+                </div>
+
+                </div>
+                
+
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/snack & munchies.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mother Dairy Paneer</h3>
+                    <h4>400g</h4>
+                <div class="add-btn-section">
+                    <p>₹45</p>
+                    <button class="Add-to-card">ADD</button>
+                </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/snack & munchies.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mother Dairy Paneer</h3>
+                    <h4>400g</h4>
+                <div class="add-btn-section">
+                    <p>₹45</p>
+                    <button class="Add-to-card">ADD</button>
+                </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/snack & munchies.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mother Dairy Paneer</h3>
+                    <h4>400g</h4>
+                <div class="add-btn-section">
+                    <p>₹45</p>
+                    <button class="Add-to-card">ADD</button>
+                </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/snack & munchies.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mother Dairy Paneer</h3>
+                    <h4>400g</h4>
+                <div class="add-btn-section">
+                    <p>₹45</p>
+                    <button class="Add-to-card">ADD</button>
+                </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/snack & munchies.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mother Dairy Paneer</h3>
+                    <h4>400g</h4>
+                <div class="add-btn-section">
+                    <p>₹45</p>
+                    <button class="Add-to-card">ADD</button>
+                </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+<!--------------------- footer -------------------  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>find us here</h3>
+    
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <div class="app">
+                <!-- <p>My App:</p> -->
+                <a href="/index.html"><button class="btn"><i class="fa fa-download"></i> My App</button></a>
+            </div>
+           
+        </div>
+
+        <div class="box">
+            <h3>contact us</h3>
+            <p>+91 9993470025</p>
+            <a href="#" class="link">khanaparcel532@gmail.com</a>
+        </div>
+
+        <div class="box">
+            <h3>localization</h3>
+            <span></span>
+            <p>Infront of Gayatri Mandir <span>
+                <p>Rajeev Nagar, Vidisha</p>
+            </span> 
+             
+            
+            </p>
+        </div>
+
+    </div>
+
+    <div class="credit">created by <span> Khana Parcel </span> @ 2023 all right reserved!</div>
+
+</section>
+        
+
+    </div>
+
+
+    
+</body>
+</html>

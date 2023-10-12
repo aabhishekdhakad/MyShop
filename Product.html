@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>खाना Parcel</title>
+    <link rel="icon" type="image/png" href="./images/khana-parcles-logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+
+    <header class="header">
+        
+        <div class="logo-section">
+        <img src="./images/khana-parcles-logo.png" alt="logo">
+        <a href="./index.html" class="logo-name" style="color:darkgoldenrod ">खाना Parcel</a>
+        </div>
+
+        <div class="navbar navbar-location">
+            <i class="bi bi-geo-alt-fill"></i>
+            <select name="location">
+              <option value="Bhopal">Bhopal</option>
+              <option value="Vidisha">Vidisha</option>
+              <option value="Indore">Indore</option>
+              <option value="sehore">sehore</option>
+            </select>
+
+            <div class="pip-line">
+                <span>|</span>
+            </div>
+
+            <form class="search-box" role="search">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <button class="search-btn" type="submit"><i class="bi bi-search"></i></button>
+              </form>
+
+          </div>
+
+        <div class="icons">
+            <div id="cart-btn" class="fas fa-shopping-basket">
+            </div>
+            <div id="login-btn" class="fas fa-user">
+            </div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart1.jpg" alt="">
+                <div class="content">
+                    <h3>side dish</h3>
+                    <span class="price">$14.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart2.jpg" alt="">
+                <div class="content">
+                    <h3>side dish</h3>
+                    <span class="price">$15.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart3.png" alt="">
+                <div class="content">
+                    <h3>side dish</h3>
+                    <span class="price">$14.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart4.jpg" alt="">
+                <div class="content">
+                    <h3>side dish</h3>
+                    <span class="price">$18.99</span>
+                </div>
+            </div>
+            <h3 class="total"> total: <span> $56.89</span></h3>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <!-- end -->
+
+        <!-- login -->
+
+        <form action="" class="login-form">
+
+            <h3>login form</h3>
+
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <a href="#" class="btn"> login </a>
+
+        </form>
+    </header>   
+    
+    <div class = "cards-wrapper">
+      <div class = "cards">
+        <!-- cards left -->
+        <div class = "product-imgs">
+          <div class = "img-display">
+            <div class = "img-showcase">
+              <img src = "images/kitchen oil.jpg" alt = "shoe image">
+              <!-- <img src = "images/personal care.jpg" alt = "shoe image">
+              <img src = "images/Organic healthy.jpg" alt = "shoe image">
+              <img src = "images/snack & munchies.jpg" alt = "shoe image"> -->
+            </div>
+          </div>
+          <div class = "img-select">
+            <div class = "img-item">
+              <a href = "#" data-id = "1">
+                <!-- <img src = "shoes_images/shoe_1.jpg" alt = "shoe image"> -->
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "2">
+                <!-- <img src = "shoes_images/shoe_2.jpg" alt = "shoe image"> -->
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "3">
+                <!-- <img src = "shoes_images/shoe_3.jpg" alt = "shoe image"> -->
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "4">
+                <!-- <img src = "shoes_images/shoe_4.jpg" alt = "shoe image"> -->
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- cards right -->
+        <div class = "product-content">
+          <h2 class = "product-title">Fortune Oil</h2>
+      
+
+          <div class = "product-price">
+            <p class = "last-price">Old Price: <span>RS 257.00</span></p>
+            <p class = "new-price">New Price: <span>RS 249.00 (5%)</span></p>
+          </div>
+
+          <div class = "product-detail">
+            <h2>about this item: </h2>
+            <p>Fortune Sunlite Oil is refined sunflower oil that is healthy and tasty. Its high boiling point implies that sunflower oil holds onto its nutritional content even at higher temperatures, making it an excellent choice for the Indian cooking style.</p>
+            <ul>
+              <li>Company: <span>Fortune</span></li>
+              <li>Available: <span>in stock</span></li>
+              <li>Category: <span>Oil</span></li>
+              <li>Shipping Area: <span>All over the world</span></li>
+              <li>Shipping Fee: <span>Free</span></li>
+            </ul>
+          </div>
+
+          <div class = "purchase-info">
+            <input type = "number" min = "0" value = "1">
+            <button type = "button" class = "btn">
+              Add to Cart <i class = "fas fa-shopping-cart"></i>
+            </button>
+          </div>
+
+        
+        </div>
+      </div>
+    </div>
+
+<!-- ================================================ 
+                Footer-Secrion
+================================================== -->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>find us here</h3>
+                <!-- <p>Lorem ipsum dolors sit amet consectetur adipisicing elit. In accusamus praesentium.</p> -->
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+                <div class="app">
+                    <!-- <p>My App:</p> -->
+                    <a href="/index.html"><button class="btn"><i class="fa fa-download"></i> My App</button></a>
+                </div>
+               
+            </div>
+
+            <div class="box">
+                <h3>contact us</h3>
+                <p>+91 9993470025</p>
+                <a href="#" class="link">khanaparcel532@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>localization</h3>
+                <span></span>
+                <p>Infront of Gayatri Mandir <span>
+                    <p>Rajeev Nagar, Vidisha</p>
+                </span> 
+                 
+                
+                </p>
+            </div>
+
+        </div>
+
+        <!-- <div class="credit">created by <span> Abhi </span> @ 2023 all right reserved!</div> -->
+
+
+    </section>
+
+    
+    <script>
+        const imgs = document.querySelectorAll('.img-select a');
+const imgBtns = [...imgs];
+let imgId = 1;
+
+imgBtns.forEach((imgItem) => {
+    imgItem.addEventListener('click', (event) => {
+        event.preventDefault();
+        imgId = imgItem.dataset.id;
+        slideImage();
+    });
+});
+
+function slideImage(){
+    const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
+
+    document.querySelector('.img-showcase').style.transform = `translateX(${- (imgId - 1) * displayWidth}px)`;
+}
+
+window.addEventListener('resize', slideImage);
+    </script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+  </body>
+</html>

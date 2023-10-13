@@ -1286,6 +1286,7 @@ font-size: 18px;
 
 
 .btn {
+  width:30%;
   background-color: red;
   border: none;
   color: white;

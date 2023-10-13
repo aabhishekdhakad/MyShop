@@ -2169,7 +2169,7 @@ img{
 .product-pages{
   width: 100%;
 }
-.row{
+.rowss{
   width: 90%;
   height: 100vh;
   margin: auto;
@@ -2177,10 +2177,10 @@ img{
   align-items: center;
   justify-content: space-around;
 }
-.col{
+.colss{
   flex-basis: 45%;
 }
-.sliders{
+.sliderss{
   height: 80vh;
   display: flex;
 }
@@ -2194,7 +2194,7 @@ img{
 p{
   margin-bottom: 20px;
 }
-.brand{
+.brandname{
   background: #FFC107;
   width: fit-content;
   color: black;
@@ -2207,23 +2207,16 @@ p{
   line-height: 30px;
   color: #555;
   margin-bottom: 20px;
-  /* font-size: 30px;
-  font-weight: 700; */
+
 }
 .rating{
   display: flex;
   height: 15px;
 }
 .rating .fa{
-  color: #008000;
+  color: #DD0024;
 }
 
-input{
-  width: 30px;
-  border: 1px solid #ccc;
-  font-weight: bold;
-  text-align: center;
-}
 .Add-to-cart{
   color: #fff;
   font-size: 15px;

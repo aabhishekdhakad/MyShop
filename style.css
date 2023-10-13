@@ -518,7 +518,7 @@ section{
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   gap: 16px;
-  border-radius: 8px;
+  border-radius: 0px;
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
@@ -550,6 +550,8 @@ section{
   cursor: pointer;
   flex-direction: column;
   border-radius: 20px;
+  border: none;
+
 }
 
 .carousel .card .img {
@@ -575,7 +577,7 @@ section{
 @media (min-width: 210px){
 
   .wrapper .carousel{
-    grid-auto-columns: calc((100% / 1) - 10px);
+    grid-auto-columns: calc((100% / 1) - 30px);
     gap: 0px;
   }
 
@@ -591,12 +593,12 @@ section{
 @media (min-width: 320px){
 
   .wrapper .carousel{
-    grid-auto-columns: calc((100% / 1) - 10px);
+    grid-auto-columns: calc((100% / 1) - 32px);
     gap: 0px;
   }
 
   .carousel .card {
-    height: 220px;
+    height: 200px;
     width: 310px; 
   }
 
@@ -607,13 +609,14 @@ section{
 @media (min-width: 375px){
 
   .wrapper .carousel{
-    grid-auto-columns: calc((100% / 1) - 35px);
+    grid-auto-columns: calc((100% / 1) - 40px);
     gap: 0px;
   }
 
   .carousel .card {
-    height: 220px;
-    width: 310px; 
+    height: 200px;
+    width: 350px; 
+    margin-bottom: 5px;
   }
 
 }
@@ -623,12 +626,12 @@ section{
 @media (min-width: 425px){
 
   .wrapper .carousel{
-    grid-auto-columns: calc((100% / 1) - 30px);
+    grid-auto-columns: calc((100% / 1) - 100px);
     gap: 0px;
   }
 
   .carousel .card {
-    height: 260px;
+    height: 200px;
     width: 340px; 
   }
 
@@ -639,25 +642,167 @@ section{
 @media (min-width: 450px){
 
   .wrapper .carousel{
-    grid-auto-columns: calc((90% / 1) - 40px);
+    grid-auto-columns: calc((90% / 1) - 45px);
   }
 
   .carousel .card {
-    height: 290px;
+    height: 220px;
     width: 380px; 
   }
 
 }
 
 
-@media (min-width: 590px){
+
+@media (min-width: 520px){
+
   .wrapper .carousel{
-    grid-auto-columns: calc((80% / 1) - 50px);
+    grid-auto-columns: calc((90% / 1) - 110px);
+  }
+
+  .carousel .card {
+    height: 210px;
+    width: 380px; 
   }
 
 }
 
 
+
+@media (min-width: 590px){
+  .wrapper .carousel{
+    grid-auto-columns: calc((75% / 1) - 60px);
+  }
+
+
+.carousel .card {
+    height: 230px;
+    width: 400px;
+  }
+
+}
+
+
+@media (min-width: 650px){
+ 
+  .wrapper .carousel{
+    grid-auto-columns: calc((100% / 2) - 0px);
+  }
+
+  .carousel .card {
+    height: 200px;
+    width: 345px;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (min-width: 750px){
+ 
+  .wrapper .carousel{
+    grid-auto-columns: calc((100% / 2) - 10px);
+  }
+
+  .carousel .card {
+    height: 220px;
+    width: 380px;
+  }
+}
+
+
+@media (min-width: 820px){
+ 
+  .wrapper .carousel{
+    grid-auto-columns: calc((100% / 2) - 35px);
+  }
+
+  .carousel .card {
+    height: 210px;
+    width: 390px;
+  }
+}
+
+
+
+@media (min-width: 900px){
+  .wrapper .carousel{
+    grid-auto-columns: calc((100% / 2) - 50px);
+  }
+
+  .carousel .card {
+    height: 240px;
+    width: 415px;
+  }
+
+}
+
+
+
+@media screen and (min-width: 1000px) {
+
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 75px);
+  }
+  .carousel .card {
+    height: 250px;
+    width: 440px;
+  }
+}
+
+
+
+
+@media screen and (min-width: 1200px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((80% / 2) - 55px);
+  }
+}
+
+
+
+
+@media screen and (min-width: 1300px) {
+
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 3) - 20px);
+  }
+
+
+  .carousel .card {
+    height: 250px;
+    width: 420px;
+  }
+}
+
+
+
+
+@media screen and (min-width: 1500px) {
+
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 3) - 55px);
+  }
+
+  .carousel .card {
+    height: 250px;
+    width: 440px;
+  }
+
+}
+
+
+
+
+
+
+/* @media (min-width: 590px){
+  .wrapper .carousel{
+    grid-auto-columns: calc((80% / 1) - 50px);
+  }
+
+} */
+
+/* 
 @media (min-width: 750px){
   .wrapper .carousel{
     grid-auto-columns: calc((100% / 2) - 0px);
@@ -698,7 +843,7 @@ section{
   .wrapper .carousel {
     grid-auto-columns: calc((100% / 3) - 50px);
   }
-}
+} */
 
 
 /* ================================================= 
@@ -1487,7 +1632,8 @@ font-size: 18px;
     .slider {
       margin-top: 10rem;
       width: 100%;
-      height: 10vh !important;
+      height: 12vh !important;
+      margin-bottom: 1rem;
     }
   
 

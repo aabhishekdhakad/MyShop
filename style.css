@@ -174,33 +174,6 @@ section{
 
 
 
-/* .header .logo{
-  font-size: 2.5rem;
-  font-weight: bolder;
-  color: var(--black);
-} */
-
-/* .header .logo i{
-  color: var(--secondary);
-  padding-right: .5rem;
-} */
-
-/* 
-.header .navbar a{
-  font-size: 1.7rem;
-  color: var(--black);
-  margin: 0 1rem;
-}
-
-.header .navbar a:hover{
-  color: var(--primary-color);
-} */
-
-
-
-
-
-
 .header .fas{
   font-size: 2.5rem;
 }
@@ -231,13 +204,8 @@ section{
   color: #fff;
 }
 
-/* .card-btn{
-  background: #FFC108;
-} */
 
-
-
-/* shopping-cart */
+/*--------------- Add-to-Card || shopping-cart -----------------*/
 
 .header .shopping-cart{
   position: absolute;
@@ -312,7 +280,8 @@ section{
 
 /* end */
 
-/* login form */
+
+/*-------------------- login form ---------------------*/
 
 .header .login-form{
   position: absolute;
@@ -387,17 +356,6 @@ section{
 
 }
 
-
-/* @media only screen and (max-width: 1050px){
-
-.header{
-  width: 100%;
-  height: 100px;
-  padding: 2rem 5%;
-  overflow: hidden;
-}
-
-} */
 
 
 @media (max-width: 991px){
@@ -570,8 +528,6 @@ section{
 
 
 /* -------------- Responsive ---------------- */
-
-
 
 
 @media (min-width: 210px){
@@ -792,61 +748,7 @@ section{
 
 
 
-
-
-
-/* @media (min-width: 590px){
-  .wrapper .carousel{
-    grid-auto-columns: calc((80% / 1) - 50px);
-  }
-
-} */
-
-/* 
-@media (min-width: 750px){
-  .wrapper .carousel{
-    grid-auto-columns: calc((100% / 2) - 0px);
-  }
-
-}
-
-
-@media (min-width: 900px){
-  .wrapper .carousel{
-    grid-auto-columns: calc((100% / 2) - 25px);
-  }
-}
-
-
-@media screen and (min-width: 950px) {
-  .wrapper .carousel {
-    grid-auto-columns: calc((100% / 2) - 9px);
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .wrapper .carousel {
-    grid-auto-columns: calc((85% / 2) - 50px);
-  }
-}
-
-
-@media screen and (min-width: 1200px) {
-  .wrapper .carousel {
-    grid-auto-columns: calc((75% / 2) - 50px);
-  }
-}
-
-
-
-@media screen and (min-width: 1300px) {
-  .wrapper .carousel {
-    grid-auto-columns: calc((100% / 3) - 50px);
-  }
-} */
-
-
-/* ================================================= 
+/* ================================================== 
                       Product Section
   ==================================================*/
 
@@ -969,8 +871,6 @@ section{
     width: 100%;
     padding: 0px 0px 10px 0px;
   }
-
-
 }
 
 
@@ -1097,15 +997,11 @@ font-size: 18px;
  font-size: 18px;
  
  }
- 
  }
-
-
 
  
 @media screen and (max-width: 1200px) {
   
-
   .about {
     margin-bottom: 20rem;
   }
@@ -1133,11 +1029,6 @@ font-size: 18px;
  }
  
  }
-
-
-
- 
- 
 
 
 
@@ -1210,7 +1101,7 @@ font-size: 18px;
 
 
 /* ================================================= 
-                     Category-Headings and SeeALL btn
+           Category-Headings and SeeALL btn
   ==================================================*/
 
 
@@ -1440,9 +1331,15 @@ font-size: 18px;
   cursor: pointer;
   font-size: 20px;
 }
+
+
+
 /* ================================================= 
                    Contact us Button
   ==================================================*/
+
+
+
 .contact-btn{
   width: 25%;
   margin-top: 1rem;
@@ -1461,9 +1358,12 @@ font-size: 18px;
 }
 
 
-/* ================================================= 
+
+/* ==================================================
                     Category Section
   ==================================================*/
+
+
 
 .category .box-container{
   display: grid;
@@ -1635,8 +1535,6 @@ font-size: 18px;
       height: 12vh !important;
       margin-bottom: 1rem;
     }
-  
-
   }
 
 
@@ -1651,7 +1549,6 @@ font-size: 18px;
     .slider-buttons {
       display: none;
     }
-
   }
 
 
@@ -1663,14 +1560,6 @@ font-size: 18px;
     height: 30px;
     font-size: 10px;
   }
-
-  /* .slider {
-    margin-top: 15rem;
-    width: 100%;
-    height: 20vh;
-    overflow: none;
-  } */
-
 
   .slider-buttons {
       position: absolute;
@@ -1872,22 +1761,16 @@ article p {
 
 
 @media screen and (max-width: 570px){
-
-
 .review-main{
   margin-top: 40rem;
   margin-bottom: 30rem;
 }
-
-
   .reviewItem {
     width: 300px;
     padding: 20px;
   }
 
   }
-
-
 
 
 @media screen and (max-width:375px) {
